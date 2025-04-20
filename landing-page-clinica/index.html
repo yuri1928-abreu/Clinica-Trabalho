@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica Vida Saudável</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Clínica Vida Saudável</div>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bem-vindo à Clínica Vida Saudável</h1>
+        <p>Cuidando da sua saúde com carinho, tecnologia e excelência.</p>
+    </section>
+
+    <section id="servicos" class="cards">
+        <h2>Nossos Principais Serviços</h2>
+        <div class="card">
+            <i class="fas fa-user-md"></i>
+            <h3>Atendimento Médico</h3>
+            <p>Consultas com especialistas em diversas áreas da saúde.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-vials"></i>
+            <h3>Exames Laboratoriais</h3>
+            <p>Coleta e análise com equipamentos modernos e seguros.</p>
+        </div>
+    </section>
+
+    <section id="equipe" class="cards">
+        <h2>Nossa Equipe</h2>
+        <div class="card equipe-card">
+            <i class="fas fa-user-nurse"></i>
+            <h3>Dra. Ana Costa</h3>
+            <p>Clínica Geral</p>
+        </div>
+        <div class="card equipe-card">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Dr. Bruno Silva</h3>
+            <p>Cardiologista</p>
+        </div>
+        <div class="card equipe-card">
+            <i class="fas fa-user"></i>
+            <h3>Enfermeira Larissa Lima</h3>
+            <p>Responsável Técnica</p>
+        </div>
+    </section>
+
+    <section id="contato" class="formulario">
+        <h2>Quer saber mais?</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Clínica Vida Saudável. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
